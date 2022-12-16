@@ -86,7 +86,7 @@ var Module = {
     var gobutton = document.createElement("button");
     gobutton.value = "GO";
     document.body.append(gobutton);
-    goButton.onclick = function() {
+    gobutton.onclick = function() {
       const filters = [
         {},
       ];
